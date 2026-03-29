@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/06_missing_values_and_extra_columns
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.28674225004083453, high_thr=0.7468601249687571
+- buy=0: n_components=3, low_thr=0.2764472328901533, high_thr=0.5246632750463913

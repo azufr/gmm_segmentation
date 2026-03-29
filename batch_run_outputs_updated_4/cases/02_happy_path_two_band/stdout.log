@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/02_happy_path_two_band
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.1484488807144022, high_thr=0.4682885793561698
+- buy=0: n_components=3, low_thr=0.1168928834806971, high_thr=0.4220426920860462

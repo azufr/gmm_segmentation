@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 597, in <module>
+    sys.exit(run(parser.parse_args()))
+             ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 446, in run
+    validate_columns(df, score_col=args.score_col, buy_col=args.buy_col)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 124, in validate_columns
+    raise ValueError(f"Missing required columns: {missing}")
+ValueError: Missing required columns: ['pred_prob', 'buy']

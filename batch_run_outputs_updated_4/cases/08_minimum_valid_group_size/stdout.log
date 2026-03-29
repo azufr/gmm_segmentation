@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/08_minimum_valid_group_size
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.440606985896066, high_thr=0.847250174120667
+- buy=0: n_components=3, low_thr=0.10219260556759585, high_thr=0.5647270105760449

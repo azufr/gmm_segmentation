@@ -1,0 +1,87 @@
+{
+  "input_file": "gmm_test_data_pack/10_only_buy1_rows.csv",
+  "n_rows_input": 120,
+  "n_rows_used": 120,
+  "score_col": "pred_prob",
+  "buy_col": "buy",
+  "fit_on": "logit",
+  "min_components": 3,
+  "max_components": 3,
+  "grid_points": 5000,
+  "groups": {
+    "buy=1": {
+      "group_name": "buy=1",
+      "n_samples": 120,
+      "fit_scale": "logit",
+      "n_components": 3,
+      "bic": 472.5998341706483,
+      "component_means_fit_scale": [
+        -1.6217417989936327,
+        -0.20978871117793557,
+        1.6484225361629958
+      ],
+      "component_stds_fit_scale": [
+        0.6568425082942416,
+        0.6177767442731071,
+        0.8163880989210922
+      ],
+      "component_weights": [
+        0.24298628419555066,
+        0.2728325656727256,
+        0.4841811501317237
+      ],
+      "thresholds_fit_scale": [
+        -0.9461415609767037,
+        0.5089922039378743
+      ],
+      "thresholds_probability_scale": [
+        0.27966144685471284,
+        0.6245701938462915
+      ],
+      "notes": "Multiple thresholds found. Lowest/highest are usually the main action cutoffs.",
+      "chosen_low_threshold_probability": 0.27966144685471284,
+      "chosen_high_threshold_probability": 0.6245701938462915,
+      "bootstrap_thresholds": [
+        {
+          "threshold_index": 0,
+          "mean": 0.37878296790833604,
+          "std": 0.16208019151587055,
+          "median": 0.31617653814905555,
+          "q05": 0.18073730102165947,
+          "q95": 0.6535732355634998,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 1,
+          "mean": 0.7220313826832032,
+          "std": 0.1491004151664328,
+          "median": 0.7259003138447153,
+          "q05": 0.5241405954012263,
+          "q95": 0.9262430496894115,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 2,
+          "mean": 0.6494238048106037,
+          "std": 0.0,
+          "median": 0.6494238048106037,
+          "q05": 0.6494238048106037,
+          "q95": 0.6494238048106037,
+          "n_success": 1,
+          "n_attempted": 100
+        }
+      ],
+      "plot_file": "plot_buy_1.png",
+      "segment_counts": {
+        "potential_repeater_proxy": 59,
+        "buyer_gray_zone": 32,
+        "one_time_buyer_proxy": 29
+      }
+    },
+    "buy=0": {
+      "error": "No rows found for this group."
+    }
+  }
+}

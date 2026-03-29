@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/07_rounded_repeated_scores
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.2655023610877692, high_thr=0.7082780330950594
+- buy=0: n_components=3, low_thr=0.2714162911389858, high_thr=0.7400885571205281

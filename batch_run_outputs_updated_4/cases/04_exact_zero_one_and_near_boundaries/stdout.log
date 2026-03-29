@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/04_exact_zero_one_and_near_boundaries
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.0007424237749422497, high_thr=0.9999989944573925
+- buy=0: n_components=3, low_thr=1.0000000000000008e-06, high_thr=0.9905404956630444

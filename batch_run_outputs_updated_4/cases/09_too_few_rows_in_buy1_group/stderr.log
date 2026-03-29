@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 597, in <module>
+    sys.exit(run(parser.parse_args()))
+             ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 475, in run
+    summary, gmm, scores_prob, x_fit = fit_group_model(
+                                       ~~~~~~~~~~~~~~~^
+        group_df=group_df,
+        ^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        grid_points=args.grid_points,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 302, in fit_group_model
+    gmm, bic = fit_best_gmm_1d(
+               ~~~~~~~~~~~~~~~^
+        x_fit,
+        ^^^^^^
+        min_components=min_components,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        max_components=max_components,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 161, in fit_best_gmm_1d
+    raise ValueError(
+        f"Too few rows ({len(x)}) to fit a stable GMM. Need at least 20 samples."
+    )
+ValueError: Too few rows (19) to fit a stable GMM. Need at least 20 samples.

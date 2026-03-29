@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/13_out_of_range_probabilities
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=1.0055426074688783e-06, high_thr=0.9999989888840647
+- buy=0: n_components=3, low_thr=1.0055426074688783e-06, high_thr=0.39451647093016545

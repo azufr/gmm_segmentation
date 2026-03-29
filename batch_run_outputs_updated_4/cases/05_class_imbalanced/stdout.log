@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/05_class_imbalanced
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.28194994852097854, high_thr=0.7424879332439833
+- buy=0: n_components=3, low_thr=0.2820555396061471, high_thr=0.7989622877802807

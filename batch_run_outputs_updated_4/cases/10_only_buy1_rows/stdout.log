@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/10_only_buy1_rows
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.27966144685471284, high_thr=0.6245701938462915
+- buy=0: No rows found for this group.

@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/16_groupwise_constant_scores
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=None, high_thr=None
+- buy=0: n_components=3, low_thr=None, high_thr=None

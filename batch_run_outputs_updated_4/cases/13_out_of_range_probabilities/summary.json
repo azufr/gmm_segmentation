@@ -1,0 +1,167 @@
+{
+  "input_file": "gmm_test_data_pack/13_out_of_range_probabilities.csv",
+  "n_rows_input": 600,
+  "n_rows_used": 600,
+  "score_col": "pred_prob",
+  "buy_col": "buy",
+  "fit_on": "logit",
+  "min_components": 3,
+  "max_components": 3,
+  "grid_points": 5000,
+  "groups": {
+    "buy=1": {
+      "group_name": "buy=1",
+      "n_samples": 300,
+      "fit_scale": "logit",
+      "n_components": 3,
+      "bic": 1142.5507208132526,
+      "component_means_fit_scale": [
+        -13.815509557963757,
+        0.26866062435562277,
+        13.815509557935012
+      ],
+      "component_stds_fit_scale": [
+        0.001,
+        1.577377107719149,
+        0.001
+      ],
+      "component_weights": [
+        0.006666666666666674,
+        0.98,
+        0.01333333333333334
+      ],
+      "thresholds_fit_scale": [
+        -13.809982248678736,
+        13.804454939364943
+      ],
+      "thresholds_probability_scale": [
+        1.0055426074688783e-06,
+        0.9999989888840647
+      ],
+      "notes": "Multiple thresholds found. Lowest/highest are usually the main action cutoffs.",
+      "chosen_low_threshold_probability": 1.0055426074688783e-06,
+      "chosen_high_threshold_probability": 0.9999989888840647,
+      "bootstrap_thresholds": [
+        {
+          "threshold_index": 0,
+          "mean": 0.06971487547542375,
+          "std": 0.13763151517129027,
+          "median": 1.0055426074688783e-06,
+          "q05": 1.0055426074688783e-06,
+          "q95": 0.4072225643957255,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 1,
+          "mean": 0.9599257356040869,
+          "std": 0.15388820669638126,
+          "median": 0.9999989888840647,
+          "q05": 0.9209401596682574,
+          "q95": 0.9999989888840647,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 2,
+          "mean": 0.9964632639424649,
+          "std": 0.013466946227126679,
+          "median": 0.9999989888840647,
+          "q05": 0.9830032973315284,
+          "q95": 0.9999989888840647,
+          "n_success": 28,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 3,
+          "mean": 0.9973286913135154,
+          "std": 0.0,
+          "median": 0.9973286913135154,
+          "q05": 0.9973286913135154,
+          "q95": 0.9973286913135154,
+          "n_success": 1,
+          "n_attempted": 100
+        }
+      ],
+      "plot_file": "plot_buy_1.png",
+      "segment_counts": {
+        "buyer_gray_zone": 294,
+        "potential_repeater_proxy": 4,
+        "one_time_buyer_proxy": 2
+      }
+    },
+    "buy=0": {
+      "group_name": "buy=0",
+      "n_samples": 300,
+      "fit_scale": "logit",
+      "n_components": 3,
+      "bic": 1229.732303056347,
+      "component_means_fit_scale": [
+        -13.815509557963763,
+        -1.5842094977779049,
+        0.31606488125554555
+      ],
+      "component_stds_fit_scale": [
+        0.001,
+        1.0677593193749249,
+        1.9184079531160156
+      ],
+      "component_weights": [
+        0.009999999999999764,
+        0.4771091181501417,
+        0.5128908818498586
+      ],
+      "thresholds_fit_scale": [
+        -13.809982248678736,
+        -4.452247629111493,
+        -0.4283664696047289
+      ],
+      "thresholds_probability_scale": [
+        1.0055426074688783e-06,
+        0.011518134061285108,
+        0.39451647093016545
+      ],
+      "notes": "Multiple thresholds found. Lowest/highest are usually the main action cutoffs.",
+      "chosen_low_threshold_probability": 1.0055426074688783e-06,
+      "chosen_high_threshold_probability": 0.39451647093016545,
+      "bootstrap_thresholds": [
+        {
+          "threshold_index": 0,
+          "mean": 0.024752604400982318,
+          "std": 0.09846480266136032,
+          "median": 1.0101377147372065e-06,
+          "q05": 1.0055426074688783e-06,
+          "q95": 0.12125847584102975,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 1,
+          "mean": 0.5840237688957229,
+          "std": 0.3369251174355727,
+          "median": 0.48684756262456863,
+          "q05": 0.010196304551125131,
+          "q95": 0.9999989888840647,
+          "n_success": 100,
+          "n_attempted": 100
+        },
+        {
+          "threshold_index": 2,
+          "mean": 0.7681911153744544,
+          "std": 0.28766211261483215,
+          "median": 0.9845377843350376,
+          "q05": 0.33593124761334653,
+          "q95": 0.9922889470205908,
+          "n_success": 35,
+          "n_attempted": 100
+        }
+      ],
+      "plot_file": "plot_buy_0.png",
+      "segment_counts": {
+        "nonbuyer_gray_zone": 173,
+        "potential_buyer_proxy": 124,
+        "non_buyer_proxy": 3
+      }
+    }
+  }
+}

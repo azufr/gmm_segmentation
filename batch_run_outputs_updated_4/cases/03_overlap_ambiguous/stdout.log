@@ -1,0 +1,6 @@
+GMM proxy segmentation completed.
+Output directory: batch_run_outputs_updated_4/cases/03_overlap_ambiguous
+Segmented rows: segmented_users.csv
+Summary: summary.json
+- buy=1: n_components=3, low_thr=0.3837484585107609, high_thr=0.6830062001835233
+- buy=0: n_components=3, low_thr=0.2824591314258801, high_thr=0.5901182854841631

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 597, in <module>
+    sys.exit(run(parser.parse_args()))
+             ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 446, in run
+    validate_columns(df, score_col=args.score_col, buy_col=args.buy_col)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zufri/projects/python/threshold_search_gmm/gmm_proxy_segmentation_update_3.py", line 128, in validate_columns
+    raise ValueError(
+        f"Column '{buy_col}' must contain only 0/1 values. Found: {sorted(unique_buy)}"
+    )
+ValueError: Column 'buy' must contain only 0/1 values. Found: [-2.0, -1.0, 0.0, 0.5, 1.0, 2.0, 3.0, 4.0, 7.0, 99.0]
